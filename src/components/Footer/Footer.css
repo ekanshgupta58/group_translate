@@ -1,0 +1,24 @@
+
+
+.footer-part-1{
+    height:7rem;
+    border-bottom: 1px solid #eee;
+    align-items: center;
+}
+.footer-part-2{
+    height:5rem;
+    align-items: center;
+    justify-content: center;
+}
+img.footer-img{
+    height:6rem;
+}
+.v-center{
+    display: flex;
+    align-items: center;
+}
+.footer-part-1 a{
+    text-decoration: none;
+    color:grey;
+    font-size: 1.5rem;
+}

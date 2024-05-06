@@ -1,0 +1,47 @@
+div.text{
+    
+    justify-content: center;
+    background-color: #EDF0F2;
+    padding:4rem 2rem;
+   
+}
+
+.input-box{
+    background-color: #EDF0F2;
+    height:100%;
+    padding:1rem;
+    position:relative;
+}
+.input-box::after{
+    content: "\21C4";
+    position:absolute;
+    right:-1.4%;
+    top:50%;
+    cursor:not-allowed;
+    transform: scale(1.25);
+}
+
+
+
+.output-box{
+    
+    height:100%;
+    padding:1rem;
+}
+textarea{
+    resize: none;
+    border-radius: 0%;
+    
+}
+.form-control{
+    border-radius: 0%;
+}
+.form-select{
+    border-radius: 0%;
+}
+
+@media screen and (max-width:770px){
+    .input-box::after{
+        display: none;
+    }
+}
